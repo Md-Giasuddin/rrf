@@ -1,0 +1,143 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.full-section {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #232323;
+    margin-bottom: 70px;
+}
+
+.blog-box-img  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: #fff;
+    background-position: center;
+    height: 200px;
+    border: 1px solid #ff8f17;
+}
+.blog-box-img {
+    border-bottom: 0px solid;
+}
+
+.blog-img-1 {
+    background-image: url(../image/blog1.jpg);
+    background-image: url(../image/blog2.jpg);
+    background-image: url(../image/blog3.jpg);
+}
+.blog-box-content{
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    transition: all .5s;
+}
+.blog-meta {
+    margin-bottom: 10px;
+    margin-top: 10px;
+      
+}
+.blog-meta i{
+    color: #ff8f17;
+    padding-right: 8px;
+}
+.blog-meta span{
+    padding-right: 15px;
+}
+.blog-meta a{
+    color: #232323;
+}
+
+.blog-box-content h3{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #545454;
+}
+
+.blog-box-content p{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #232323;
+}
+
+.blog-btn{
+    background: #ff8f17;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+    transition: all .3s;
+    border-radius: 4px;
+}
+
+.blog-btn:hover{
+    background: #222222;
+    color: #fff
+}
+
+.blog-box:hover .blog-box-content{
+    border: 1px solid #ff8f17;
+}
+.active{
+    border: 1px solid #ff8f17;
+}
